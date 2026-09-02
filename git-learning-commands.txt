@@ -1,0 +1,29 @@
+c:
+cd..
+mk dir Git-Practice
+mkdir Git-Practise
+cd Git-Practise
+git init
+git status
+echo "This is my first Git project" > README.txt
+git status
+git add Readme.txt
+git status
+git add README.txt
+git status
+git commit-m "Add README file"
+git commit -m "Add README file:
+git status
+git log --oneline
+echo "I am learning Git step by step" >> README.txt
+git status
+git diff
+git add README.txt
+GIT STATUS
+git status
+git diff
+git diff --staged
+git commit -m "Update README with Git learning note"
+git status
+git log --oneline
+doskey /history > git-learning-commands.txt
